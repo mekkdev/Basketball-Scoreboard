@@ -6,32 +6,32 @@ let  guest_score = document.getElementById("guest_score").innerText
 
 
 
-function home_one(){
+window.home_one = function (){
     counter_home += 1
     document.getElementById("home_score").innerText = counter_home
 }
 
-function home_two(){
+window.home_two = function (){
     counter_home += 2
     document.getElementById("home_score").innerText = counter_home
 }
 
-function home_three(){
+window.home_three = function (){
     counter_home += 3
     document.getElementById("home_score").innerText = counter_home
 }
 
-function guest_one(){
+window.guest_one = function (){
     counter_guest += 1
     document.getElementById("guest_score").innerText = counter_guest
 }
 
-function guest_two(){
+window.guest_two = function (){
     counter_guest += 2
     document.getElementById("guest_score").innerText = counter_guest
 }
 
-function guest_three(){
+window.guest_three = function (){
     counter_guest += 3
     document.getElementById("guest_score").innerText = counter_guest
 }
